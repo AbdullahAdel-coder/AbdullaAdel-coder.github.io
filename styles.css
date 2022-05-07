@@ -1,0 +1,199 @@
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+/*Header Section*/
+.container{
+    padding-top: 2%;
+    
+}
+
+/*Navbar Section*/
+
+.navbar{
+    padding:0 0 5rem 0;
+}
+.navbar-brand{
+    font-family:'IBM Plex Sans Arabic', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    font-style: italic;
+}
+.nav-item{
+    margin: 0 13px;
+
+}
+.nav-link{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;    
+}
+
+/*Title Section*/
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    line-height: 1.6;
+    font-size: 3.2rem;
+}
+
+/*For Sell and Rent Buttons*/
+.btn-lg{
+    margin: 6% 5% 3% 0; 
+    padding-right:4rem;
+    padding-left: 4rem;
+    border-radius:1rem;
+
+}
+/*About Us Section*/
+.AboutUs{
+}
+.AboutUsDescription{
+          padding-top: 10%;
+          line-height: 2.5;
+          font-size: 1.3rem;
+          font-weight: 300;
+}
+
+.AboutUsTitle{
+  text-align: center; 
+
+}
+hr{
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+/*OUR Service Section*/
+.Our-Service{
+    margin-top: 5%;
+    
+}
+.Our-ServiceTitle{
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.ServiceBox{
+    text-align: center;
+    margin-bottom: 12%;
+}
+
+.icon{
+    padding-bottom: 3%;
+}
+h2{
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+.ServiceDescription{
+    font-size: 1.3rem;
+    color:#9f9f9f;
+    font-weight: 400;
+}
+
+/*Properties section*/
+.ProperitesTitle{
+    text-align: center;
+}
+.price-title{
+    color:#8479E1
+}
+.location-Title{
+    color:#46244C;
+}
+.properites-container{
+    
+ padding: 3% 10%;
+}
+.card{
+        margin-bottom: 12%;
+        border-radius: 10px;
+
+}
+.card-text{
+    font-size: 1.3rem;
+    color:#9f9f9f;
+    font-weight: 400;
+}
+li{
+    margin-bottom: 2%;
+}
+.card-link{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 1.3rem;
+        font-weight: 400;
+        border-radius: 4%;
+        word-spacing:0.2rem;
+
+}
+.button-lookForMore{
+    text-align: center;
+}
+.lookForMore{
+    margin-top: -1%;
+}
+
+@media (max-width:991px)  { 
+
+    .properites-container{
+        padding: 3% 20%;
+    }
+    
+}
+/*OurTeamTitleSection*/
+.OurTeamTitle{
+        text-align: center;
+
+}
+/*ContactUsTitleSection*/
+
+.ContactUsTitle{
+            text-align: center;
+
+}
+.ContactUsText{
+        font-size: 1.3rem;
+        color:#9f9f9f;
+        font-weight: 400;
+        text-align: center;
+}
+.form-group{
+    margin-bottom: 10%;
+}
+.ContactUsDetails{
+        font-size: 1.3rem;
+        color:#9f9f9f;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 2%;
+}
+.ContactUsIcons{
+    text-align: center;
+}
+.ContactUsIcon{
+    padding-bottom: 3%;
+}
+/*footer section*/
+.bottom-container{
+  background-color:  #66BFBF;
+  padding: 50px 0 20px;
+  text-align: center;
+}
+.footer-link{
+  color: #11999E;
+  text-decoration: none;
+  margin:10px 20px;
+  font-size: 1.5rem;
+}
+.footer-link:hover{
+  color:#EAF6F6;
+}
+.footer-copyright{
+  color: #EAF6F6;
+  font-size: 1.2rem; /*1rem=16px*/
+  padding: 20px 0;
+}
